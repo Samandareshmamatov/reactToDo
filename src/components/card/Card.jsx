@@ -17,7 +17,7 @@ const Card = ({name, age, phone, id, editData, deleteItem}) => {
       ?
       <div className="box" id={id}>
         <p>Name : {input.name}</p>
-        <p>Age : {input.age}</p>  
+        <p>Email : {input.age}</p>  
         <p>Phone : {input.phone}</p>
         <button type="button" onClick={() => {setChangeInput(true)}}>Edit</button>
         <button type="button" onClick={() => deleteItem(id)}>Delete</button>
